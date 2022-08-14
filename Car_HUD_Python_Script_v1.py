@@ -1,4 +1,4 @@
-import serial # Import the Python Serial package for serial communication
+import serial # Import the Python Serial package for serial communicatio
 from tkinter import * # Import Tkinter for the GUI
 import threading as thread # Import the Python Threading package for multithreading
 
