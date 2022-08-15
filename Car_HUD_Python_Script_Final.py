@@ -168,7 +168,7 @@ def send():
 
     # If there was an error
     if dist > 170.00:
-        # Parse data, ep. 1: print the error | can be changed to suite other lasers
+        # Parse data, ep. 1: print the error | can be changed to suit other lasers
         
         # Print error
         printg(distance, "Distance: Error") # to GUI
@@ -184,7 +184,7 @@ def send():
         
     # otherwise
     else:
-        # Parse data, ep. 2: There was no error | can be changed to suite other
+        # Parse data, ep. 2: There was no error | can be changed to suit other
         
         # Print distance
         printg(distance, "Distance: " + format(dist, ".2f") + "m") # to GUI
