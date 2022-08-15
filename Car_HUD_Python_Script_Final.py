@@ -39,8 +39,8 @@ if not connection.is_connected():
 root = Tk()
 
 guiFactor = 1.6 # Used to scale the entire gui by 1.6 times to fit the screen
-# Set the size of the window to fullscreen
 
+# Set the size of the window to fullscreen
 width = root.winfo_screenwidth() # Get width of screen
 height = root.winfo_screenheight() # Get height of screen
 
