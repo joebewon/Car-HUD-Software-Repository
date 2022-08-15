@@ -46,9 +46,6 @@ height = root.winfo_screenheight() # Get height of screen
 
 root.geometry("%dx%d" % (width, height)) # Set size of window to fullscreen
 
-
-#root.wm_attributes('-fullscreen', 'True')
-
 # Padding
 padding = Label(root, text="|\n|\n|\n|\n|\n|", font=("Arial", 30), fg='gainsboro')
 padding.grid(row=0, column=0)
@@ -154,7 +151,7 @@ printg(speed, "Current speed: " + format(velocity, ".2f") + "m/s") # Print to gu
 def send():    
     global velocity
     
-    #Get the distance form the lidar
+    #Get the distance from the lidar
     dist = 0
     TFbuff = [0,0,0,0,0,0,0,0,0]
     TFbuff[0] = ser.read() # Read laser data
