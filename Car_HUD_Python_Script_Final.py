@@ -66,6 +66,7 @@ braking_distance.grid(row=2, column=1, padx=5, pady=5)
 BD_indicator = Canvas(root, height= int(ceil(76 * guiFactor)), width= int(ceil(228 * guiFactor)), bg="gray")
 BD_indicator.grid(row=3, column=1, padx=5, pady=5)
 
+# Create the BD stop light
 BDlight = BD_indicator.create_oval(int(ceil(8 * guiFactor)), int(ceil(8 * guiFactor)), int(ceil(68 * guiFactor)), int(ceil(68 * guiFactor)), outline="gray", fill="gray")
 BDtext = BD_indicator.create_text(int(ceil(114 * guiFactor)),  int(ceil(38 * guiFactor)), font=("Arial",  int(ceil(13 * guiFactor))), text="Error, Proceed with caution")
         
@@ -76,7 +77,8 @@ threeSHeader.grid(row=2, column=0, padx=5, pady=5)
 # 3 second rule indicator
 TSR_indicator = Canvas(root, height= int(ceil(76 * guiFactor)), width= int(ceil(228 * guiFactor)), bg="gray")
 TSR_indicator.grid(row=3, column=0, padx=5, pady=5)
-# create the TSR stop light
+
+# Create the TSR stop light
 TSRlight = TSR_indicator.create_oval(int(ceil(8 * guiFactor)), int(ceil(8 * guiFactor)), int(ceil(68 * guiFactor)), int(ceil(68 * guiFactor)), outline="gray", fill="gray")
 TSRtext = TSR_indicator.create_text(int(ceil(114 * guiFactor)),  int(ceil(38 * guiFactor)), font=("Arial",  int(ceil(13 * guiFactor))), text="Error, Proceed with caution")
 
