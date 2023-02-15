@@ -1,3 +1,5 @@
+# Copyright (c) 2022 Joseph Habisohn
+
 from numpy import ceil # Import the ceil() function from numpy
 import threading as thread # Import the Python threading package and name it thread
 import serial #Import Python Serial package
