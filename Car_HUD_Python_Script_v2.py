@@ -1,3 +1,5 @@
+# Copyright (c) 2022 Joseph Habisohn
+
 from numpy import ceil # Import the ceil() function from NumPy
 import serial # Import the python serial package
 import obd # Import the python-OBD package
